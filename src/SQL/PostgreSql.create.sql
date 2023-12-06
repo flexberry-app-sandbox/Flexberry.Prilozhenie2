@@ -15,6 +15,12 @@ CREATE TABLE СправДол (
  PRIMARY KEY (primaryKey));
 
 
+CREATE TABLE Препод (
+ primaryKey UUID NOT NULL,
+ ФИОПрепода VARCHAR(255) NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE КартДоступ (
  primaryKey UUID NOT NULL,
  НомерКарты INT NULL,

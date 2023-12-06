@@ -5,6 +5,7 @@
     <persistence-unit name="Olingo4PG">
         <class>Prilozhenie_2.model.SpravKlas</class>
         <class>Prilozhenie_2.model.SpravDol</class>
+        <class>Prilozhenie_2.model.Prepod</class>
         <class>Prilozhenie_2.model.KartDostup</class>
         <class>Prilozhenie_2.model.SpravSotr</class>
         <class>Prilozhenie_2.model.SpravUchen</class>

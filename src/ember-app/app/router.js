@@ -11,6 +11,11 @@ Router.map(function () {
   { path: 'i-i-s-prilozhenie-2-карт-доступ-e/:id' });
   this.route('i-i-s-prilozhenie-2-карт-доступ-e.new',
   { path: 'i-i-s-prilozhenie-2-карт-доступ-e/new' });
+  this.route('i-i-s-prilozhenie-2-препод-l');
+  this.route('i-i-s-prilozhenie-2-препод-e',
+  { path: 'i-i-s-prilozhenie-2-препод-e/:id' });
+  this.route('i-i-s-prilozhenie-2-препод-e.new',
+  { path: 'i-i-s-prilozhenie-2-препод-e/new' });
   this.route('i-i-s-prilozhenie-2-справ-дол-l');
   this.route('i-i-s-prilozhenie-2-справ-дол-e',
   { path: 'i-i-s-prilozhenie-2-справ-дол-e/:id' });

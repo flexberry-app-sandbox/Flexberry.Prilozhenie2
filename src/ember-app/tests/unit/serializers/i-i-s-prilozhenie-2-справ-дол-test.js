@@ -10,6 +10,7 @@ moduleForModel('i-i-s-prilozhenie-2-справ-дол', 'Unit | Serializer | i-i
     'transform:guid',
 
     'model:i-i-s-prilozhenie-2-карт-доступ',
+    'model:i-i-s-prilozhenie-2-препод',
     'model:i-i-s-prilozhenie-2-справ-дол',
     'model:i-i-s-prilozhenie-2-справ-клас',
     'model:i-i-s-prilozhenie-2-справ-род',

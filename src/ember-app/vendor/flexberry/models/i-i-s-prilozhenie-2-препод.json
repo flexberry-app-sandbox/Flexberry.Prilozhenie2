@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISPrilozhenie_2Препод",
+  "modelName": "i-i-s-prilozhenie-2-препод",
+  "className": "Препод",
+  "nameSpace": "IIS.Prilozhenie_2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "фИОПрепода",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПреподE",
+      "modelName": "i-i-s-prilozhenie-2-препод",
+      "attrs": [
+        {
+          "name": "фИОПрепода",
+          "caption": "Препод",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ПреподL",
+      "modelName": "i-i-s-prilozhenie-2-препод",
+      "attrs": [
+        {
+          "name": "фИОПрепода",
+          "caption": "Препод",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

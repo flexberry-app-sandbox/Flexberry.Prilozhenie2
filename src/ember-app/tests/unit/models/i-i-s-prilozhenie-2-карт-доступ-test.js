@@ -4,6 +4,7 @@ moduleForModel('i-i-s-prilozhenie-2-карт-доступ', 'Unit | Model | i-i-
   // Specify the other units that are required for this test.
   needs: [
     'model:i-i-s-prilozhenie-2-карт-доступ',
+    'model:i-i-s-prilozhenie-2-препод',
     'model:i-i-s-prilozhenie-2-справ-дол',
     'model:i-i-s-prilozhenie-2-справ-клас',
     'model:i-i-s-prilozhenie-2-справ-род',

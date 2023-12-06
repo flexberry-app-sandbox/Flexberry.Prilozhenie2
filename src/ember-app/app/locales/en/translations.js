@@ -2,18 +2,21 @@ import $ from 'jquery';
 import EmberFlexberryTranslations from 'ember-flexberry/locales/en/translations';
 
 import IISPrilozhenie_2КартДоступLForm from './forms/i-i-s-prilozhenie-2-карт-доступ-l';
+import IISPrilozhenie_2ПреподLForm from './forms/i-i-s-prilozhenie-2-препод-l';
 import IISPrilozhenie_2СправДолLForm from './forms/i-i-s-prilozhenie-2-справ-дол-l';
 import IISPrilozhenie_2СправКласLForm from './forms/i-i-s-prilozhenie-2-справ-клас-l';
 import IISPrilozhenie_2СправРодLForm from './forms/i-i-s-prilozhenie-2-справ-род-l';
 import IISPrilozhenie_2СправСотрLForm from './forms/i-i-s-prilozhenie-2-справ-сотр-l';
 import IISPrilozhenie_2СправУченLForm from './forms/i-i-s-prilozhenie-2-справ-учен-l';
 import IISPrilozhenie_2КартДоступEForm from './forms/i-i-s-prilozhenie-2-карт-доступ-e';
+import IISPrilozhenie_2ПреподEForm from './forms/i-i-s-prilozhenie-2-препод-e';
 import IISPrilozhenie_2СправДолEForm from './forms/i-i-s-prilozhenie-2-справ-дол-e';
 import IISPrilozhenie_2СправКласEForm from './forms/i-i-s-prilozhenie-2-справ-клас-e';
 import IISPrilozhenie_2СправРодEForm from './forms/i-i-s-prilozhenie-2-справ-род-e';
 import IISPrilozhenie_2СправСотрEForm from './forms/i-i-s-prilozhenie-2-справ-сотр-e';
 import IISPrilozhenie_2СправУченEForm from './forms/i-i-s-prilozhenie-2-справ-учен-e';
 import IISPrilozhenie_2КартДоступModel from './models/i-i-s-prilozhenie-2-карт-доступ';
+import IISPrilozhenie_2ПреподModel from './models/i-i-s-prilozhenie-2-препод';
 import IISPrilozhenie_2СправДолModel from './models/i-i-s-prilozhenie-2-справ-дол';
 import IISPrilozhenie_2СправКласModel from './models/i-i-s-prilozhenie-2-справ-клас';
 import IISPrilozhenie_2СправРодModel from './models/i-i-s-prilozhenie-2-справ-род';
@@ -26,6 +29,7 @@ $.extend(true, translations, EmberFlexberryTranslations);
 $.extend(true, translations, {
   models: {
     'i-i-s-prilozhenie-2-карт-доступ': IISPrilozhenie_2КартДоступModel,
+    'i-i-s-prilozhenie-2-препод': IISPrilozhenie_2ПреподModel,
     'i-i-s-prilozhenie-2-справ-дол': IISPrilozhenie_2СправДолModel,
     'i-i-s-prilozhenie-2-справ-клас': IISPrilozhenie_2СправКласModel,
     'i-i-s-prilozhenie-2-справ-род': IISPrilozhenie_2СправРодModel,
@@ -143,6 +147,10 @@ $.extend(true, translations, {
         'new-folder1': {
           caption: 'NewFolder1',
           title: 'NewFolder1',
+          'i-i-s-prilozhenie-2-препод-l': {
+            caption: 'ПреподL',
+            title: ''
+          },
           'i-i-s-prilozhenie-2-справ-дол-l': {
             caption: 'СправДолL',
             title: ''
@@ -188,12 +196,14 @@ $.extend(true, translations, {
       'delete-error-message-caption': 'Delete operation failed'
     },
     'i-i-s-prilozhenie-2-карт-доступ-l': IISPrilozhenie_2КартДоступLForm,
+    'i-i-s-prilozhenie-2-препод-l': IISPrilozhenie_2ПреподLForm,
     'i-i-s-prilozhenie-2-справ-дол-l': IISPrilozhenie_2СправДолLForm,
     'i-i-s-prilozhenie-2-справ-клас-l': IISPrilozhenie_2СправКласLForm,
     'i-i-s-prilozhenie-2-справ-род-l': IISPrilozhenie_2СправРодLForm,
     'i-i-s-prilozhenie-2-справ-сотр-l': IISPrilozhenie_2СправСотрLForm,
     'i-i-s-prilozhenie-2-справ-учен-l': IISPrilozhenie_2СправУченLForm,
     'i-i-s-prilozhenie-2-карт-доступ-e': IISPrilozhenie_2КартДоступEForm,
+    'i-i-s-prilozhenie-2-препод-e': IISPrilozhenie_2ПреподEForm,
     'i-i-s-prilozhenie-2-справ-дол-e': IISPrilozhenie_2СправДолEForm,
     'i-i-s-prilozhenie-2-справ-клас-e': IISPrilozhenie_2СправКласEForm,
     'i-i-s-prilozhenie-2-справ-род-e': IISPrilozhenie_2СправРодEForm,
