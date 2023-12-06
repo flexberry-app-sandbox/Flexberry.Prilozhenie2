@@ -83,7 +83,7 @@
           ],
           "index": 3,
           "type": "standard",
-          "caption": "Ответственный",
+          "caption": "СправСотр",
           "name": "справСотр",
           "relatedTo": "i-i-s-prilozhenie-2-справ-сотр",
           "inverse": null

@@ -40,7 +40,7 @@ export let defineProjections = function (modelClass) {
     справУчен: belongsTo('i-i-s-prilozhenie-2-справ-учен', 'Справ учен', {
       фИОУченика: attr('Ф и о ученика', { index: 2 })
     }, { index: 1, displayMemberPath: 'фИОУченика' }),
-    справСотр: belongsTo('i-i-s-prilozhenie-2-справ-сотр', 'Ответственный', {
+    справСотр: belongsTo('i-i-s-prilozhenie-2-справ-сотр', 'СправСотр', {
       фИОСотр: attr('Ф и о сотр', { index: 4 })
     }, { index: 3, displayMemberPath: 'фИОСотр' })
   });

@@ -33,7 +33,7 @@ namespace IIS.Prilozhenie_2
             "НомерКарты as \'Номер карты\'",
             "СправУчен as \'Справ учен\'",
             "СправУчен.ФИОУченика as \'Ф и о ученика\'",
-            "СправСотр as \'Ответственный\'",
+            "СправСотр as \'СправСотр\'",
             "СправСотр.ФИОСотр as \'Ф и о сотр\'"})]
     [MasterViewDefineAttribute("КартДоступE", "СправУчен", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ФИОУченика")]
     [MasterViewDefineAttribute("КартДоступE", "СправСотр", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ФИОСотр")]
