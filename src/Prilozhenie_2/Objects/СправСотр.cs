@@ -29,13 +29,8 @@ namespace IIS.Prilozhenie_2
     [AutoAltered()]
     [Caption("Справочник Сотрудники")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
-    [View("СправСотрE", new string[] {
-            "ФИОСотр as \'Ф и о сотр\'",
-            "СправДол",
-            "СправДол.Должность"})]
-    [View("СправСотрL", new string[] {
-            "ФИОСотр as \'Ф и о сотр\'",
-            "СправДол.Должность"})]
+    [View("СправСотрE", new string[0])]
+    [View("СправСотрL", new string[0])]
     public class СправСотр : ICSSoft.STORMNET.DataObject
     {
         
