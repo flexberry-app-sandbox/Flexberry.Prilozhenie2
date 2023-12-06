@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISPrilozhenie_2СправКлас",
+  "modelName": "i-i-s-prilozhenie-2-справ-клас",
+  "className": "СправКлас",
+  "nameSpace": "IIS.Prilozhenie_2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "классы",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СправКласE",
+      "modelName": "i-i-s-prilozhenie-2-справ-клас",
+      "attrs": [
+        {
+          "name": "классы",
+          "caption": "Классы",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СправКласL",
+      "modelName": "i-i-s-prilozhenie-2-справ-клас",
+      "attrs": [
+        {
+          "name": "классы",
+          "caption": "Классы",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

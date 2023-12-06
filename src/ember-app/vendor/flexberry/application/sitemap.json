@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Prilozhenie_2",
+  "applicationTitle": "Prilozhenie_2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "prilozhenie-2",
+      "caption": "Prilozhenie_2",
+      "title": "Prilozhenie_2",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie-2-справ-клас-l",
+          "menuName": null,
+          "caption": "Справ клас",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-2-справ-дол-l",
+          "menuName": null,
+          "caption": "Справ дол",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-2-карт-доступ-l",
+          "menuName": null,
+          "caption": "Карт доступ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-2-справ-сотр-l",
+          "menuName": null,
+          "caption": "Справ сотр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-2-справ-учен-l",
+          "menuName": null,
+          "caption": "Справ учен",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-2-справ-род-l",
+          "menuName": null,
+          "caption": "Справ род",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

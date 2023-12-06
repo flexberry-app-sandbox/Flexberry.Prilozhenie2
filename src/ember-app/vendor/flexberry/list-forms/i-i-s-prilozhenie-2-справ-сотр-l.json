@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-2-справ-сотр-e",
+  "editForm": "i-i-s-prilozhenie-2-справ-сотр-e",
+  "external": false,
+  "caption": "Справ сотр",
+  "name": "IISPrilozhenie_2СправСотрL",
+  "className": "СправСотрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-2-справ-сотр",
+      "modelProjection": "СправСотрL"
+    }
+  ]
+}
