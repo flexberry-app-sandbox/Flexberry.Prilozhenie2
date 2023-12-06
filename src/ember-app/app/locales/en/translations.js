@@ -140,6 +140,14 @@ $.extend(true, translations, {
             title: 'Справ сотр'
           }
         },
+        'new-folder1': {
+          caption: 'NewFolder1',
+          title: 'NewFolder1',
+          'i-i-s-prilozhenie-2-справ-дол-l': {
+            caption: 'СправДолL',
+            title: ''
+          }
+        },
         'prilozhenie-2': {
           caption: 'Prilozhenie_2',
           title: 'Prilozhenie_2',

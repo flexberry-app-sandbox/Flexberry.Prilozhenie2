@@ -80,6 +80,21 @@
           "children": null
         }
       ]
+    },
+    {
+      "link": null,
+      "menuName": "new-folder1",
+      "caption": "NewFolder1",
+      "title": "NewFolder1",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie-2-справ-дол-l",
+          "menuName": null,
+          "caption": "СправДолL",
+          "title": "",
+          "children": null
+        }
+      ]
     }
   ],
   "mobile": true
