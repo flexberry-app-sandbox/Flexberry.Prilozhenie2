@@ -29,8 +29,10 @@ namespace IIS.Prilozhenie_2
     [AutoAltered()]
     [Caption("Справочник Должности")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
-    [View("СправДолE", new string[0])]
-    [View("СправДолL", new string[0])]
+    [View("СправДолE", new string[] {
+            "Должность as \'Дол\'"})]
+    [View("СправДолL", new string[] {
+            "Должность as \'Дол\'"})]
     public class СправДол : ICSSoft.STORMNET.DataObject
     {
         
