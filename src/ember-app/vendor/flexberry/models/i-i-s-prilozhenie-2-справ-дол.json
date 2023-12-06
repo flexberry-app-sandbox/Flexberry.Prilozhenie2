@@ -22,28 +22,14 @@
     {
       "name": "СправДолE",
       "modelName": "i-i-s-prilozhenie-2-справ-дол",
-      "attrs": [
-        {
-          "name": "должность",
-          "caption": "Не Должность",
-          "hidden": false,
-          "index": 0
-        }
-      ],
+      "attrs": [],
       "belongsTo": [],
       "hasMany": []
     },
     {
       "name": "СправДолL",
       "modelName": "i-i-s-prilozhenie-2-справ-дол",
-      "attrs": [
-        {
-          "name": "должность",
-          "caption": "Не Должность",
-          "hidden": false,
-          "index": 0
-        }
-      ],
+      "attrs": [],
       "belongsTo": [],
       "hasMany": []
     }
