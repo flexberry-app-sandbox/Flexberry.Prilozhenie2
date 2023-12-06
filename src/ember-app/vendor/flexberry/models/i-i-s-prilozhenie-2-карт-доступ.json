@@ -83,7 +83,7 @@
           ],
           "index": 3,
           "type": "standard",
-          "caption": "Справ сотр",
+          "caption": "Ответственный",
           "name": "справСотр",
           "relatedTo": "i-i-s-prilozhenie-2-справ-сотр",
           "inverse": null
@@ -133,14 +133,14 @@
           "attrs": [
             {
               "name": "фИОСотр",
-              "caption": "Ф и о сотр",
+              "caption": "Ответственный",
               "hidden": false,
               "index": 2
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Ф и о сотр",
+          "caption": "Ответственный",
           "name": "справСотр",
           "relatedTo": "i-i-s-prilozhenie-2-справ-сотр",
           "inverse": null

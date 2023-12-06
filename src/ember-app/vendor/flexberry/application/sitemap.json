@@ -4,9 +4,9 @@
   "items": [
     {
       "link": null,
-      "menuName": "prilozhenie-2",
-      "caption": "Prilozhenie_2",
-      "title": "Prilozhenie_2",
+      "menuName": "администратор",
+      "caption": "Администратор",
+      "title": "Администратор",
       "children": [
         {
           "link": "i-i-s-prilozhenie-2-справ-клас-l",
@@ -48,6 +48,35 @@
           "menuName": null,
           "caption": "Справ род",
           "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "ученик",
+      "caption": "Ученик",
+      "title": "Ученик",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie-2-справ-дол-l",
+          "menuName": null,
+          "caption": "СправДолL",
+          "title": "Справ дол",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-2-справ-род-l",
+          "menuName": null,
+          "caption": "СправРодL",
+          "title": "Справ род",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-2-справ-сотр-l",
+          "menuName": null,
+          "caption": "СправСотрL",
+          "title": "Справ сотр",
           "children": null
         }
       ]

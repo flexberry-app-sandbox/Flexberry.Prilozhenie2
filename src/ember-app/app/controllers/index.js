@@ -16,43 +16,66 @@ export default Controller.extend({
         }, {
           link: null,
           icon: 'list',
-          caption: i18n.t('forms.application.sitemap.prilozhenie-2.caption'),
-          title: i18n.t('forms.application.sitemap.prilozhenie-2.title'),
+          caption: i18n.t('forms.application.sitemap.администратор.caption'),
+          title: i18n.t('forms.application.sitemap.администратор.title'),
           children: [{
             link: 'i-i-s-prilozhenie-2-справ-клас-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-2.i-i-s-prilozhenie-2-справ-клас-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-2.i-i-s-prilozhenie-2-справ-клас-l.title'),
-            icon: 'building',
+            caption: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-клас-l.caption'),
+            title: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-клас-l.title'),
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-2-справ-дол-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-2.i-i-s-prilozhenie-2-справ-дол-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-2.i-i-s-prilozhenie-2-справ-дол-l.title'),
-            icon: 'edit',
+            caption: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-дол-l.caption'),
+            title: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-дол-l.title'),
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-2-карт-доступ-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-2.i-i-s-prilozhenie-2-карт-доступ-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-2.i-i-s-prilozhenie-2-карт-доступ-l.title'),
-            icon: 'chart bar',
+            caption: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-карт-доступ-l.caption'),
+            title: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-карт-доступ-l.title'),
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-2-справ-сотр-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-2.i-i-s-prilozhenie-2-справ-сотр-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-2.i-i-s-prilozhenie-2-справ-сотр-l.title'),
-            icon: 'edit',
+            caption: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-сотр-l.caption'),
+            title: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-сотр-l.title'),
             children: null
           }, {
             link: 'i-i-s-prilozhenie-2-справ-учен-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-2.i-i-s-prilozhenie-2-справ-учен-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-2.i-i-s-prilozhenie-2-справ-учен-l.title'),
-            icon: 'address card',
+            caption: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-учен-l.caption'),
+            title: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-учен-l.title'),
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-2-справ-род-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-2.i-i-s-prilozhenie-2-справ-род-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-2.i-i-s-prilozhenie-2-справ-род-l.title'),
-            icon: 'suitcase',
+            caption: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-род-l.caption'),
+            title: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-род-l.title'),
+            icon: 'tags',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.ученик.caption'),
+          title: i18n.t('forms.application.sitemap.ученик.title'),
+          children: [{
+            link: 'i-i-s-prilozhenie-2-справ-дол-l',
+            caption: i18n.t('forms.application.sitemap.ученик.i-i-s-prilozhenie-2-справ-дол-l.caption'),
+            title: i18n.t('forms.application.sitemap.ученик.i-i-s-prilozhenie-2-справ-дол-l.title'),
+            icon: 'chart line',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie-2-справ-род-l',
+            caption: i18n.t('forms.application.sitemap.ученик.i-i-s-prilozhenie-2-справ-род-l.caption'),
+            title: i18n.t('forms.application.sitemap.ученик.i-i-s-prilozhenie-2-справ-род-l.title'),
+            icon: 'building',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie-2-справ-сотр-l',
+            caption: i18n.t('forms.application.sitemap.ученик.i-i-s-prilozhenie-2-справ-сотр-l.caption'),
+            title: i18n.t('forms.application.sitemap.ученик.i-i-s-prilozhenie-2-справ-сотр-l.title'),
+            icon: 'address card',
             children: null
           }]
         }

@@ -40,7 +40,7 @@ export let defineProjections = function (modelClass) {
     справУчен: belongsTo('i-i-s-prilozhenie-2-справ-учен', 'Справ учен', {
       фИОУченика: attr('Ф и о ученика', { index: 2, hidden: true })
     }, { index: 1, displayMemberPath: 'фИОУченика' }),
-    справСотр: belongsTo('i-i-s-prilozhenie-2-справ-сотр', 'Справ сотр', {
+    справСотр: belongsTo('i-i-s-prilozhenie-2-справ-сотр', 'Ответственный', {
       фИОСотр: attr('Ф и о сотр', { index: 4, hidden: true })
     }, { index: 3, displayMemberPath: 'фИОСотр' })
   });
@@ -50,8 +50,8 @@ export let defineProjections = function (modelClass) {
     справУчен: belongsTo('i-i-s-prilozhenie-2-справ-учен', 'Ф и о ученика', {
       фИОУченика: attr('Ф и о ученика', { index: 1 })
     }, { index: -1, hidden: true }),
-    справСотр: belongsTo('i-i-s-prilozhenie-2-справ-сотр', 'Ф и о сотр', {
-      фИОСотр: attr('Ф и о сотр', { index: 2 })
+    справСотр: belongsTo('i-i-s-prilozhenie-2-справ-сотр', 'Ответственный', {
+      фИОСотр: attr('Ответственный', { index: 2 })
     }, { index: -1, hidden: true })
   });
 };

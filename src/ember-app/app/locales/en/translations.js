@@ -96,6 +96,50 @@ $.extend(true, translations, {
           caption: 'Home',
           title: ''
         },
+        администратор: {
+          caption: 'Администратор',
+          title: 'Администратор',
+          'i-i-s-prilozhenie-2-справ-клас-l': {
+            caption: 'Справ клас',
+            title: ''
+          },
+          'i-i-s-prilozhenie-2-справ-дол-l': {
+            caption: 'Справ дол',
+            title: ''
+          },
+          'i-i-s-prilozhenie-2-карт-доступ-l': {
+            caption: 'Карт доступ',
+            title: ''
+          },
+          'i-i-s-prilozhenie-2-справ-сотр-l': {
+            caption: 'Справ сотр',
+            title: ''
+          },
+          'i-i-s-prilozhenie-2-справ-учен-l': {
+            caption: 'Справ учен',
+            title: ''
+          },
+          'i-i-s-prilozhenie-2-справ-род-l': {
+            caption: 'Справ род',
+            title: ''
+          }
+        },
+        ученик: {
+          caption: 'Ученик',
+          title: 'Ученик',
+          'i-i-s-prilozhenie-2-справ-дол-l': {
+            caption: 'СправДолL',
+            title: 'Справ дол'
+          },
+          'i-i-s-prilozhenie-2-справ-род-l': {
+            caption: 'СправРодL',
+            title: 'Справ род'
+          },
+          'i-i-s-prilozhenie-2-справ-сотр-l': {
+            caption: 'СправСотрL',
+            title: 'Справ сотр'
+          }
+        },
         'prilozhenie-2': {
           caption: 'Prilozhenie_2',
           title: 'Prilozhenie_2',
