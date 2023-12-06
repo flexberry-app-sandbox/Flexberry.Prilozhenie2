@@ -27,10 +27,10 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('СправСотрE', 'i-i-s-prilozhenie-2-справ-сотр', {
-    
+    фИОСотр: attr('Сотрудник', { index: 0 })
   });
 
   modelClass.defineProjection('СправСотрL', 'i-i-s-prilozhenie-2-справ-сотр', {
-    
+    фИОСотр: attr('Сотрудник', { index: 0 })
   });
 };

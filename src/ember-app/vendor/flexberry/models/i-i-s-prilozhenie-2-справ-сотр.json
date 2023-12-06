@@ -30,14 +30,28 @@
     {
       "name": "СправСотрE",
       "modelName": "i-i-s-prilozhenie-2-справ-сотр",
-      "attrs": [],
+      "attrs": [
+        {
+          "name": "фИОСотр",
+          "caption": "Сотрудник",
+          "hidden": false,
+          "index": 0
+        }
+      ],
       "belongsTo": [],
       "hasMany": []
     },
     {
       "name": "СправСотрL",
       "modelName": "i-i-s-prilozhenie-2-справ-сотр",
-      "attrs": [],
+      "attrs": [
+        {
+          "name": "фИОСотр",
+          "caption": "Сотрудник",
+          "hidden": false,
+          "index": 0
+        }
+      ],
       "belongsTo": [],
       "hasMany": []
     }
