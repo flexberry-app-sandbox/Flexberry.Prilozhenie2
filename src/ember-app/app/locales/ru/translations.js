@@ -103,10 +103,6 @@ $.extend(true, translations, {
             caption: 'Справ клас',
             title: ''
           },
-          'i-i-s-prilozhenie-2-справ-дол-l': {
-            caption: 'Справ дол',
-            title: ''
-          },
           'i-i-s-prilozhenie-2-справ-сотр-l': {
             caption: 'Справ сотр',
             title: ''
@@ -121,6 +117,10 @@ $.extend(true, translations, {
           },
           'i-i-s-prilozhenie-2-карт-доступ-l': {
             caption: 'Карт доступ',
+            title: ''
+          },
+          'i-i-s-prilozhenie-2-справ-дол-l': {
+            caption: 'Справ дол',
             title: ''
           }
         },

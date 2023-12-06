@@ -23,6 +23,6 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('СправДолL', 'i-i-s-prilozhenie-2-справ-дол', {
-    должность: attr('Должность', { index: 0 })
+    должность: attr('НеДолжность', { index: 0 })
   });
 };

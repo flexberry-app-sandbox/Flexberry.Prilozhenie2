@@ -32,7 +32,7 @@ namespace IIS.Prilozhenie_2
     [View("СправДолE", new string[] {
             "Должность as \'Должность\'"})]
     [View("СправДолL", new string[] {
-            "Должность as \'Должность\'"})]
+            "Должность as \'НеДолжность\'"})]
     public class СправДол : ICSSoft.STORMNET.DataObject
     {
         

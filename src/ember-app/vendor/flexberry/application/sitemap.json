@@ -16,13 +16,6 @@
           "children": null
         },
         {
-          "link": "i-i-s-prilozhenie-2-справ-дол-l",
-          "menuName": null,
-          "caption": "Справ дол",
-          "title": "",
-          "children": null
-        },
-        {
           "link": "i-i-s-prilozhenie-2-справ-сотр-l",
           "menuName": null,
           "caption": "Справ сотр",
@@ -48,6 +41,13 @@
           "menuName": null,
           "caption": "Карты Доступа",
           "title": "Карт доступ",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-2-справ-дол-l",
+          "menuName": null,
+          "caption": "Справочник Должности",
+          "title": "",
           "children": null
         }
       ]
