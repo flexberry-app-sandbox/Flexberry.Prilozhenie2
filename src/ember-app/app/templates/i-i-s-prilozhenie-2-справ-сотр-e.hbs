@@ -40,8 +40,6 @@
       choose="showLookupDialog"
       remove="removeLookupValue"
       value=model.справДол
-      displayAttributeName="должность"
-      autocomplete=true
       relationName="справДол"
       projection="СправДолL"
       title=(t "forms.i-i-s-prilozhenie-2-справ-сотр-e.справДол-caption")
@@ -51,5 +49,15 @@
       data-test-i-i-s-prilozhenie-2-справ-сотр-e-справДол=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "справДол" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.справДол.должность
+      class=(if (v-get validationModel.справДол "должность" "isInvalid") "error")
+      label=(t "forms.i-i-s-prilozhenie-2-справ-сотр-e.справДол.должность-caption")
+      data-test-i-i-s-prilozhenie-2-справ-сотр-e-справДол-должность=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.справДол "должность" "message")}}
   </div>
 </form>

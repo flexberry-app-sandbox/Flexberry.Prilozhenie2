@@ -40,22 +40,22 @@
       ],
       "belongsTo": [
         {
-          "lookupValue": "Должность",
-          "lookupValueField": "должность",
+          "lookupValue": null,
+          "lookupValueField": null,
           "relationName": "СправДол",
           "belongsTo": [],
           "hidden": false,
           "attrs": [
             {
               "name": "должность",
-              "caption": "Должность",
-              "hidden": true,
+              "caption": "",
+              "hidden": false,
               "index": 2
             }
           ],
           "index": 1,
-          "type": "standard",
-          "caption": "Справ дол",
+          "type": "default",
+          "caption": "",
           "name": "справДол",
           "relatedTo": "i-i-s-prilozhenie-2-справ-дол",
           "inverse": null
@@ -84,14 +84,14 @@
           "attrs": [
             {
               "name": "должность",
-              "caption": "Должность",
+              "caption": "",
               "hidden": false,
               "index": 1
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Должность",
+          "caption": "",
           "name": "справДол",
           "relatedTo": "i-i-s-prilozhenie-2-справ-дол",
           "inverse": null

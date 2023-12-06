@@ -31,13 +31,11 @@ namespace IIS.Prilozhenie_2
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СправСотрE", new string[] {
             "ФИОСотр as \'Ф и о сотр\'",
-            "СправДол as \'Справ дол\'",
-            "СправДол.Должность as \'Должность\'"}, Hidden=new string[] {
+            "СправДол",
             "СправДол.Должность"})]
-    [MasterViewDefineAttribute("СправСотрE", "СправДол", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Должность")]
     [View("СправСотрL", new string[] {
             "ФИОСотр as \'Ф и о сотр\'",
-            "СправДол.Должность as \'Должность\'"})]
+            "СправДол.Должность"})]
     public class СправСотр : ICSSoft.STORMNET.DataObject
     {
         
