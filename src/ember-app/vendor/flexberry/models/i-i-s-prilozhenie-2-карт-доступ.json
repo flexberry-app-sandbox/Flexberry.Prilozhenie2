@@ -41,7 +41,7 @@
         {
           "name": "номерКарты",
           "caption": "Номер карты",
-          "hidden": false,
+          "hidden": true,
           "index": 0
         }
       ],
@@ -51,7 +51,7 @@
           "lookupValueField": "фИОУченика",
           "relationName": "СправУчен",
           "belongsTo": [],
-          "hidden": false,
+          "hidden": true,
           "attrs": [
             {
               "name": "фИОУченика",
@@ -72,7 +72,7 @@
           "lookupValueField": "фИОСотр",
           "relationName": "СправСотр",
           "belongsTo": [],
-          "hidden": false,
+          "hidden": true,
           "attrs": [
             {
               "name": "фИОСотр",
@@ -98,7 +98,7 @@
         {
           "name": "номерКарты",
           "caption": "Номер карты",
-          "hidden": false,
+          "hidden": true,
           "index": 0
         }
       ],
@@ -108,12 +108,12 @@
           "lookupValueField": null,
           "relationName": "СправУчен",
           "belongsTo": [],
-          "hidden": false,
+          "hidden": true,
           "attrs": [
             {
               "name": "фИОУченика",
               "caption": "Ф и о ученика",
-              "hidden": false,
+              "hidden": true,
               "index": 1
             }
           ],
@@ -129,12 +129,12 @@
           "lookupValueField": null,
           "relationName": "СправСотр",
           "belongsTo": [],
-          "hidden": false,
+          "hidden": true,
           "attrs": [
             {
               "name": "фИОСотр",
               "caption": "Ответственный",
-              "hidden": false,
+              "hidden": true,
               "index": 2
             }
           ],

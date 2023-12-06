@@ -36,22 +36,22 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('КартДоступE', 'i-i-s-prilozhenie-2-карт-доступ', {
-    номерКарты: attr('Номер карты', { index: 0 }),
+    номерКарты: attr('Номер карты', { index: 0, hidden: true }),
     справУчен: belongsTo('i-i-s-prilozhenie-2-справ-учен', 'Справ учен', {
       фИОУченика: attr('Ф и о ученика', { index: 2, hidden: true })
-    }, { index: 1, displayMemberPath: 'фИОУченика' }),
+    }, { index: 1, hidden: true }),
     справСотр: belongsTo('i-i-s-prilozhenie-2-справ-сотр', 'Ответственный', {
       фИОСотр: attr('Ф и о сотр', { index: 4, hidden: true })
-    }, { index: 3, displayMemberPath: 'фИОСотр' })
+    }, { index: 3, hidden: true })
   });
 
   modelClass.defineProjection('КартДоступL', 'i-i-s-prilozhenie-2-карт-доступ', {
-    номерКарты: attr('Номер карты', { index: 0 }),
+    номерКарты: attr('Номер карты', { index: 0, hidden: true }),
     справУчен: belongsTo('i-i-s-prilozhenie-2-справ-учен', 'Ф и о ученика', {
-      фИОУченика: attr('Ф и о ученика', { index: 1 })
+      фИОУченика: attr('Ф и о ученика', { index: 1, hidden: true })
     }, { index: -1, hidden: true }),
     справСотр: belongsTo('i-i-s-prilozhenie-2-справ-сотр', 'Ответственный', {
-      фИОСотр: attr('Ответственный', { index: 2 })
+      фИОСотр: attr('Ответственный', { index: 2, hidden: true })
     }, { index: -1, hidden: true })
   });
 };

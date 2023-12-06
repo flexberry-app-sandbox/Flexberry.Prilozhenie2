@@ -35,14 +35,20 @@ namespace IIS.Prilozhenie_2
             "СправУчен.ФИОУченика as \'Ф и о ученика\'",
             "СправСотр as \'Ответственный\'",
             "СправСотр.ФИОСотр as \'Ф и о сотр\'"}, Hidden=new string[] {
+            "НомерКарты",
+            "СправУчен",
             "СправУчен.ФИОУченика",
+            "СправСотр",
             "СправСотр.ФИОСотр"})]
     [MasterViewDefineAttribute("КартДоступE", "СправУчен", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ФИОУченика")]
     [MasterViewDefineAttribute("КартДоступE", "СправСотр", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ФИОСотр")]
     [View("КартДоступL", new string[] {
             "НомерКарты as \'Номер карты\'",
             "СправУчен.ФИОУченика as \'Ф и о ученика\'",
-            "СправСотр.ФИОСотр as \'Ответственный\'"})]
+            "СправСотр.ФИОСотр as \'Ответственный\'"}, Hidden=new string[] {
+            "НомерКарты",
+            "СправУчен.ФИОУченика",
+            "СправСотр.ФИОСотр"})]
     public class КартДоступ : ICSSoft.STORMNET.DataObject
     {
         
