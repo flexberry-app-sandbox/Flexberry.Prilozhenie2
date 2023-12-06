@@ -41,7 +41,7 @@
         {
           "name": "номерКарты",
           "caption": "Номер карты",
-          "hidden": true,
+          "hidden": false,
           "index": 0
         }
       ],
@@ -51,12 +51,12 @@
           "lookupValueField": "фИОУченика",
           "relationName": "СправУчен",
           "belongsTo": [],
-          "hidden": true,
+          "hidden": false,
           "attrs": [
             {
               "name": "фИОУченика",
               "caption": "Ф и о ученика",
-              "hidden": true,
+              "hidden": false,
               "index": 2
             }
           ],
@@ -72,12 +72,12 @@
           "lookupValueField": "фИОСотр",
           "relationName": "СправСотр",
           "belongsTo": [],
-          "hidden": true,
+          "hidden": false,
           "attrs": [
             {
               "name": "фИОСотр",
               "caption": "Ф и о сотр",
-              "hidden": true,
+              "hidden": false,
               "index": 4
             }
           ],
@@ -98,7 +98,7 @@
         {
           "name": "номерКарты",
           "caption": "Номер карты",
-          "hidden": true,
+          "hidden": false,
           "index": 0
         }
       ],
@@ -108,12 +108,12 @@
           "lookupValueField": null,
           "relationName": "СправУчен",
           "belongsTo": [],
-          "hidden": true,
+          "hidden": false,
           "attrs": [
             {
               "name": "фИОУченика",
               "caption": "Ф и о ученика",
-              "hidden": true,
+              "hidden": false,
               "index": 1
             }
           ],
@@ -129,12 +129,12 @@
           "lookupValueField": null,
           "relationName": "СправСотр",
           "belongsTo": [],
-          "hidden": true,
+          "hidden": false,
           "attrs": [
             {
               "name": "фИОСотр",
               "caption": "Ответственный",
-              "hidden": true,
+              "hidden": false,
               "index": 2
             }
           ],

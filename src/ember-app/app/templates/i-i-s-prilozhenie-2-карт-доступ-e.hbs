@@ -24,5 +24,70 @@
       {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
     </div>
   </div>
-
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.номерКарты
+      class=(if (v-get validationModel "номерКарты" "isInvalid") "error")
+      label=(t "forms.i-i-s-prilozhenie-2-карт-доступ-e.номерКарты-caption")
+      data-test-i-i-s-prilozhenie-2-карт-доступ-e-номерКарты=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "номерКарты" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-prilozhenie-2-карт-доступ-e.справУчен-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.справУчен
+      displayAttributeName="фИОУченика"
+      autocomplete=true
+      relationName="справУчен"
+      projection="СправУченL"
+      title=(t "forms.i-i-s-prilozhenie-2-карт-доступ-e.справУчен-caption")
+      readonly=readonly
+      componentName="справУченLookup"
+      class=(if (v-get validationModel "справУчен" "isInvalid") "error")
+      data-test-i-i-s-prilozhenie-2-карт-доступ-e-справУчен=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "справУчен" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.справУчен.фИОУченика
+      class=(if (v-get validationModel.справУчен "фИОУченика" "isInvalid") "error")
+      label=(t "forms.i-i-s-prilozhenie-2-карт-доступ-e.справУчен.фИОУченика-caption")
+      data-test-i-i-s-prilozhenie-2-карт-доступ-e-справУчен-фИОУченика=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.справУчен "фИОУченика" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-prilozhenie-2-карт-доступ-e.справСотр-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.справСотр
+      displayAttributeName="фИОСотр"
+      autocomplete=true
+      relationName="справСотр"
+      projection="СправСотрL"
+      title=(t "forms.i-i-s-prilozhenie-2-карт-доступ-e.справСотр-caption")
+      readonly=readonly
+      componentName="справСотрLookup"
+      class=(if (v-get validationModel "справСотр" "isInvalid") "error")
+      data-test-i-i-s-prilozhenie-2-карт-доступ-e-справСотр=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "справСотр" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.справСотр.фИОСотр
+      class=(if (v-get validationModel.справСотр "фИОСотр" "isInvalid") "error")
+      label=(t "forms.i-i-s-prilozhenie-2-карт-доступ-e.справСотр.фИОСотр-caption")
+      data-test-i-i-s-prilozhenie-2-карт-доступ-e-справСотр-фИОСотр=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.справСотр "фИОСотр" "message")}}
+  </div>
 </form>

@@ -23,13 +23,6 @@
           "children": null
         },
         {
-          "link": "i-i-s-prilozhenie-2-карт-доступ-l",
-          "menuName": null,
-          "caption": "Карт доступ",
-          "title": "",
-          "children": null
-        },
-        {
           "link": "i-i-s-prilozhenie-2-справ-сотр-l",
           "menuName": null,
           "caption": "Справ сотр",
@@ -48,6 +41,13 @@
           "menuName": null,
           "caption": "Справ род",
           "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-2-карт-доступ-l",
+          "menuName": null,
+          "caption": "КартДоступ",
+          "title": "Карт доступ",
           "children": null
         }
       ]
