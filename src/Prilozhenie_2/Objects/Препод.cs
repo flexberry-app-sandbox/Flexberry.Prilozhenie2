@@ -30,18 +30,54 @@ namespace IIS.Prilozhenie_2
     [Caption("Преподаватель")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ПреподE", new string[] {
-            "ФИОПрепода as \'Препод\'"})]
+            "ФИОПрепода as \'Препод\'",
+            "Должность as \'Долж\'"})]
     [View("ПреподL", new string[] {
-            "ФИОПрепода as \'Препод\'"})]
+            "ФИОПрепода as \'Препод\'",
+            "Должность as \'Долж\'"})]
     public class Препод : ICSSoft.STORMNET.DataObject
     {
         
         private string fФИОПрепода;
         
+        private string fДолжность;
+        
         // *** Start programmer edit section *** (Препод CustomMembers)
 
         // *** End programmer edit section *** (Препод CustomMembers)
 
+        
+        /// <summary>
+        /// Должность.
+        /// </summary>
+        // *** Start programmer edit section *** (Препод.Должность CustomAttributes)
+
+        // *** End programmer edit section *** (Препод.Должность CustomAttributes)
+        [StrLen(255)]
+        public virtual string Должность
+        {
+            get
+            {
+                // *** Start programmer edit section *** (Препод.Должность Get start)
+
+                // *** End programmer edit section *** (Препод.Должность Get start)
+                string result = this.fДолжность;
+                // *** Start programmer edit section *** (Препод.Должность Get end)
+
+                // *** End programmer edit section *** (Препод.Должность Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (Препод.Должность Set start)
+
+                // *** End programmer edit section *** (Препод.Должность Set start)
+                this.fДолжность = value;
+                // *** Start programmer edit section *** (Препод.Должность Set end)
+
+                // *** End programmer edit section *** (Препод.Должность Set end)
+            }
+        }
         
         /// <summary>
         /// ФИОПрепода.

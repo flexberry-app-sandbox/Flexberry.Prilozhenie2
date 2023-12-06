@@ -24,6 +24,8 @@ CREATE TABLE [Препод] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
+	 [Должность] VARCHAR(255)  NULL,
+
 	 [ФИОПрепода] VARCHAR(255)  NULL,
 
 	 PRIMARY KEY ([primaryKey]))

@@ -1,4 +1,5 @@
 export default {
   caption: '',
-  'фИОПрепода-caption': 'Препод'
+  'фИОПрепода-caption': 'Препод',
+  'должность-caption': 'Долж'
 };

@@ -7,6 +7,15 @@
   "parentClassName": null,
   "attrs": [
     {
+      "name": "должность",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
       "name": "фИОПрепода",
       "type": "string",
       "flexberryType": "string",
@@ -28,6 +37,12 @@
           "caption": "Препод",
           "hidden": false,
           "index": 0
+        },
+        {
+          "name": "должность",
+          "caption": "Долж",
+          "hidden": false,
+          "index": 1
         }
       ],
       "belongsTo": [],
@@ -42,6 +57,12 @@
           "caption": "Препод",
           "hidden": false,
           "index": 0
+        },
+        {
+          "name": "должность",
+          "caption": "Долж",
+          "hidden": false,
+          "index": 1
         }
       ],
       "belongsTo": [],

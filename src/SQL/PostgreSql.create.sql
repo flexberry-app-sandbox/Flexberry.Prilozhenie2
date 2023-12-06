@@ -18,6 +18,7 @@ CREATE TABLE СправДол (
 CREATE TABLE Препод (
  primaryKey UUID NOT NULL,
  ФИОПрепода VARCHAR(255) NULL,
+ Должность VARCHAR(255) NULL,
  PRIMARY KEY (primaryKey));
 
 

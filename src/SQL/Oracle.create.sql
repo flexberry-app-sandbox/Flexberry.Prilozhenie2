@@ -31,6 +31,8 @@ CREATE TABLE "Препод"
 
 	"ФИОПрепода" NVARCHAR2(255) NULL,
 
+	"Должность" NVARCHAR2(255) NULL,
+
 	 PRIMARY KEY ("primaryKey")
 ) ;
 

@@ -22,31 +22,31 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-2-справ-клас-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-клас-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-клас-l.title'),
-            icon: 'paperclip',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-2-справ-сотр-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-сотр-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-сотр-l.title'),
-            icon: 'table',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-2-справ-учен-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-учен-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-учен-l.title'),
-            icon: 'address card',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-2-справ-род-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-род-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-справ-род-l.title'),
-            icon: 'phone',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-2-карт-доступ-l',
             caption: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-карт-доступ-l.caption'),
             title: i18n.t('forms.application.sitemap.администратор.i-i-s-prilozhenie-2-карт-доступ-l.title'),
-            icon: 'chart bar',
+            icon: 'briefcase',
             children: null
           }]
         }, {
@@ -58,13 +58,13 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-2-справ-род-l',
             caption: i18n.t('forms.application.sitemap.ученик.i-i-s-prilozhenie-2-справ-род-l.caption'),
             title: i18n.t('forms.application.sitemap.ученик.i-i-s-prilozhenie-2-справ-род-l.title'),
-            icon: 'book',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-2-справ-сотр-l',
             caption: i18n.t('forms.application.sitemap.ученик.i-i-s-prilozhenie-2-справ-сотр-l.caption'),
             title: i18n.t('forms.application.sitemap.ученик.i-i-s-prilozhenie-2-справ-сотр-l.title'),
-            icon: 'file',
+            icon: 'suitcase',
             children: null
           }]
         }, {
@@ -76,13 +76,13 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-2-препод-l',
             caption: i18n.t('forms.application.sitemap.new-folder1.i-i-s-prilozhenie-2-препод-l.caption'),
             title: i18n.t('forms.application.sitemap.new-folder1.i-i-s-prilozhenie-2-препод-l.title'),
-            icon: 'archive',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-2-справ-дол-l',
             caption: i18n.t('forms.application.sitemap.new-folder1.i-i-s-prilozhenie-2-справ-дол-l.caption'),
             title: i18n.t('forms.application.sitemap.new-folder1.i-i-s-prilozhenie-2-справ-дол-l.title'),
-            icon: 'paperclip',
+            icon: 'folder open',
             children: null
           }]
         }

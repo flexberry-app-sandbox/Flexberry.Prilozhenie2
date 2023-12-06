@@ -24,6 +24,9 @@ public class Prepod {
     @Column(name = "ФИОПрепода")
     private String фиопрепода;
 
+    @Column(name = "Должность")
+    private String должность;
+
 
     public Prepod() {
         super();
@@ -43,6 +46,14 @@ public class Prepod {
 
     public void setФИОПрепода(String фиопрепода) {
       this.фиопрепода = фиопрепода;
+    }
+
+    public String getДолжность() {
+      return должность;
+    }
+
+    public void setДолжность(String должность) {
+      this.должность = должность;
     }
 
 
