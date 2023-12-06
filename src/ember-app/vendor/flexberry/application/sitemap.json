@@ -42,13 +42,6 @@
           "caption": "Карты Доступа",
           "title": "Карт доступ",
           "children": null
-        },
-        {
-          "link": "i-i-s-prilozhenie-2-справ-дол-l",
-          "menuName": null,
-          "caption": "Справочник Должности",
-          "title": "",
-          "children": null
         }
       ]
     },
@@ -58,13 +51,6 @@
       "caption": "Ученик",
       "title": "Ученик",
       "children": [
-        {
-          "link": "i-i-s-prilozhenie-2-справ-дол-l",
-          "menuName": null,
-          "caption": "СправДолL",
-          "title": "Справ дол",
-          "children": null
-        },
         {
           "link": "i-i-s-prilozhenie-2-справ-род-l",
           "menuName": null,
@@ -91,6 +77,13 @@
           "link": "i-i-s-prilozhenie-2-препод-l",
           "menuName": null,
           "caption": "ПреподL",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-2-справ-дол-l",
+          "menuName": null,
+          "caption": "СправДолL",
           "title": "",
           "children": null
         }

@@ -131,10 +131,6 @@ $.extend(true, translations, {
         ученик: {
           caption: 'Ученик',
           title: 'Ученик',
-          'i-i-s-prilozhenie-2-справ-дол-l': {
-            caption: 'СправДолL',
-            title: 'Справ дол'
-          },
           'i-i-s-prilozhenie-2-справ-род-l': {
             caption: 'СправРодL',
             title: 'Справ род'
@@ -142,6 +138,10 @@ $.extend(true, translations, {
           'i-i-s-prilozhenie-2-справ-сотр-l': {
             caption: 'СправСотрL',
             title: 'Справ сотр'
+          },
+          'i-i-s-prilozhenie-2-справ-дол-l': {
+            caption: 'СправДолL',
+            title: 'Справ дол'
           }
         },
         'new-folder1': {
