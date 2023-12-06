@@ -25,7 +25,7 @@
       "attrs": [
         {
           "name": "должность",
-          "caption": "Должность",
+          "caption": "Не Должность",
           "hidden": false,
           "index": 0
         }
@@ -39,7 +39,7 @@
       "attrs": [
         {
           "name": "должность",
-          "caption": "НеДолжность",
+          "caption": "Не Должность",
           "hidden": false,
           "index": 0
         }

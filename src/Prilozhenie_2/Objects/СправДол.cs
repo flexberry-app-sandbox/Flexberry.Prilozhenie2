@@ -30,9 +30,9 @@ namespace IIS.Prilozhenie_2
     [Caption("Справочник Должности")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СправДолE", new string[] {
-            "Должность as \'Должность\'"})]
+            "Должность as \'Не Должность\'"})]
     [View("СправДолL", new string[] {
-            "Должность as \'НеДолжность\'"})]
+            "Должность as \'Не Должность\'"})]
     public class СправДол : ICSSoft.STORMNET.DataObject
     {
         
